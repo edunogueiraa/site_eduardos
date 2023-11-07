@@ -17,12 +17,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
     <title>Home</title>
 </head>
 <body>
-    <h1>Bem vindo a página home</h1>
-    <a href="">Borges</a>
-    <a href="">Nogueira</a>
     <a href="sair.php">Sair</a>
+    <center>    
+    <h1>Bem vindo a página home</h1>
+    <div id="junção">
+            <a href="Portfolio_edu_nogueira/index.php"><button id="login">Nogueira</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=""><button id="registrar">Borges</button></a>
+    </div>
+    <br><br>
+
+    </center>
+
 </body>
 </html>
